@@ -19,20 +19,26 @@ Vue.use(Router)
 const routes = [
     {path: '/', redirect: '/rules'},
     {path: '/rules', name: 'Rules', component: Rules},
+    {path: '/aesthetic_usability_effect', redirect: '/aesthetic_usability_effect/bad_design'},
     {path: '/aesthetic_usability_effect/bad_design', name: 'AUEBadDesign', component: AUEBadDesign},
     {
         path: '/aesthetic_usability_effect/good_design',
         name: 'AUEGoodDesign',
         component: AUEGoodDesign
     },
+    {path: '/doherty_threshold', redirect: '/doherty_threshold/bad_design'},
     {path: '/doherty_threshold/bad_design', name: 'DTBadDesign', component: DTBadDesign},
     {path: '/doherty_threshold/good_design', name: 'DTGoodDesign', component: DTGoodDesign},
+    {path: '/fitts_law', redirect: '/fitts_law/bad_design'},
     {path: '/fitts_law/bad_design', name: 'FTBadDesign', component: FTBadDesign},
     {path: '/fitts_law/good_design', name: 'FTGoodDesign', component: FTGoodDesign},
+    {path: '/jakobs_law', redirect: '/jakobs_law/bad_design'},
     {path: '/jakobs_law/bad_design', name: 'JLBadDesign', component: JLBadDesign},
     {path: '/jakobs_law/good_design', name: 'JLGoodDesign', component: JLGoodDesign},
+    {path: '/law_of_proximity', redirect: '/law_of_proximity/bad_design'},
     {path: '/law_of_proximity/bad_design', name: 'LPBadDesign', component: LPBadDesign},
     {path: '/law_of_proximity/good_design', name: 'LPGoodDesign', component: LPGoodDesign},
+    {path: '/postels_law', redirect: '/postels_law/bad_design'},
     {path: '/postels_law/bad_design', name: 'PLBadDesign', component: PLBadDesign},
     {path: '/postels_law/good_design', name: 'PLGoodDesign', component: PLGoodDesign}
 ]
