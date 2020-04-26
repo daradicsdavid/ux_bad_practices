@@ -6,6 +6,8 @@ import DTBadDesign from "@/components/doherty_threshold/DTBadDesign";
 import DTGoodDesign from "@/components/doherty_threshold/DTGoodDesign";
 import FTBadDesign from "@/components/fitts_law/FTBadDesign";
 import FTGoodDesign from "@/components/fitts_law/FTGoodDesign";
+import JLBadDesign from "@/components/jakobs_law/JLBadDesign";
+import JLGoodDesign from "@/components/jakobs_law/JLGoodDesign";
 
 
 Vue.use(Router)
@@ -19,7 +21,9 @@ const routes = [
     {path: '/doherty_threshold/bad_design', name: 'DTBadDesign', component: DTBadDesign},
     {path: '/doherty_threshold/good_design', name: 'DTGoodDesign', component: DTGoodDesign},
     {path: '/fitts_law/bad_design', name: 'FTBadDesign', component: FTBadDesign},
-    {path: '/fitts_law/good_design', name: 'FTGoodDesign', component: FTGoodDesign}
+    {path: '/fitts_law/good_design', name: 'FTGoodDesign', component: FTGoodDesign},
+    {path: '/jakobs_law/bad_design', name: 'JLBadDesign', component: JLBadDesign},
+    {path: '/jakobs_law/good_design', name: 'JLGoodDesign', component: JLGoodDesign}
 ]
 
 const router = new Router({

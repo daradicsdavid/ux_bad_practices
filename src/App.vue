@@ -21,6 +21,11 @@
                         <v-list-item-title>Fitt's law</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+                <v-list-item link to="/jakobs_law/bad_design">
+                    <v-list-item-content>
+                        <v-list-item-title>Jakob's law</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
 
             </v-list>
         </v-navigation-drawer>
@@ -34,10 +39,7 @@
         </v-app-bar>
 
         <v-content>
-            <v-container
-            >
                 <router-view></router-view>
-            </v-container>
         </v-content>
     </v-app>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <v-container fluid>
         <v-btn
                 fab
                 dark
@@ -41,7 +41,7 @@
         >
             <v-icon>fas fa-bong</v-icon>
         </v-btn>
-    </div>
+    </v-container>
 
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <v-container fluid>
         <v-row align="center">
             <v-form ref="form">
                 <v-text-field
@@ -42,7 +42,7 @@
         >
             <v-icon>fas fa-check</v-icon>
         </v-btn>
-    </div>
+    </v-container>
 
 </template>
 <script>
