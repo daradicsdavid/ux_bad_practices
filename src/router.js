@@ -8,6 +8,8 @@ import FTBadDesign from "@/components/fitts_law/FTBadDesign";
 import FTGoodDesign from "@/components/fitts_law/FTGoodDesign";
 import JLBadDesign from "@/components/jakobs_law/JLBadDesign";
 import JLGoodDesign from "@/components/jakobs_law/JLGoodDesign";
+import LPBadDesign from "@/components/law_of_proximity/LPBadDesign";
+import LPGoodDesign from "@/components/law_of_proximity/LPGoodDesign";
 
 
 Vue.use(Router)
@@ -23,7 +25,9 @@ const routes = [
     {path: '/fitts_law/bad_design', name: 'FTBadDesign', component: FTBadDesign},
     {path: '/fitts_law/good_design', name: 'FTGoodDesign', component: FTGoodDesign},
     {path: '/jakobs_law/bad_design', name: 'JLBadDesign', component: JLBadDesign},
-    {path: '/jakobs_law/good_design', name: 'JLGoodDesign', component: JLGoodDesign}
+    {path: '/jakobs_law/good_design', name: 'JLGoodDesign', component: JLGoodDesign},
+    {path: '/law_of_proximity/bad_design', name: 'LPBadDesign', component: LPBadDesign},
+    {path: '/law_of_proximity/good_design', name: 'LPGoodDesign', component: LPGoodDesign}
 ]
 
 const router = new Router({

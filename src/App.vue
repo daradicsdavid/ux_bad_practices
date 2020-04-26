@@ -26,6 +26,11 @@
                         <v-list-item-title>Jakob's law</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+                <v-list-item link to="/law_of_proximity/bad_design">
+                    <v-list-item-content>
+                        <v-list-item-title>Law of proximity</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
 
             </v-list>
         </v-navigation-drawer>
@@ -35,11 +40,11 @@
                 clipped-left
         >
             <v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
-            <v-toolbar-title>Application</v-toolbar-title>
+            <v-toolbar-title>UX Worst Practices</v-toolbar-title>
         </v-app-bar>
 
         <v-content>
-                <router-view></router-view>
+            <router-view></router-view>
         </v-content>
     </v-app>
 </template>
@@ -55,7 +60,6 @@
         }),
         created() {
             this.$vuetify.theme.dark = true
-            console.log(this.$router.currentRoute)
         },
     };
 </script>
