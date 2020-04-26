@@ -16,6 +16,11 @@
                         <v-list-item-title>Doherty threshold</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+                <v-list-item link to="/fitts_law/bad_design">
+                    <v-list-item-content>
+                        <v-list-item-title>Fitt's law</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
 
             </v-list>
         </v-navigation-drawer>
