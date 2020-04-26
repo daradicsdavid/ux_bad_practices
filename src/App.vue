@@ -36,6 +36,11 @@
                         <v-list-item-title>Law of proximity</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+                <v-list-item link to="/postels_law/bad_design">
+                    <v-list-item-content>
+                        <v-list-item-title>Postel's law</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
 
             </v-list>
         </v-navigation-drawer>
