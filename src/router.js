@@ -10,10 +10,12 @@ import JLBadDesign from "@/components/jakobs_law/JLBadDesign";
 import JLGoodDesign from "@/components/jakobs_law/JLGoodDesign";
 import LPBadDesign from "@/components/law_of_proximity/LPBadDesign";
 import LPGoodDesign from "@/components/law_of_proximity/LPGoodDesign";
+import Rules from "@/components/rules/Rules";
 
 
 Vue.use(Router)
 const routes = [
+    {path: '/rules', name: 'Rules', component: Rules},
     {path: '/aesthetic_usability_effect/bad_design', name: 'AUEBadDesign', component: AUEBadDesign},
     {
         path: '/aesthetic_usability_effect/good_design',

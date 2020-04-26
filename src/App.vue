@@ -6,6 +6,11 @@
                 clipped
         >
             <v-list dense>
+                <v-list-item link to="/rules">
+                    <v-list-item-content>
+                        <v-list-item-title>Rules</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
                 <v-list-item link to="/aesthetic_usability_effect/bad_design">
                     <v-list-item-content>
                         <v-list-item-title>Aesthetic usability effect</v-list-item-title>
