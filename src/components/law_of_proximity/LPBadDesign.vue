@@ -69,7 +69,7 @@
         },
         methods: {
             addItem() {
-                this.items = [...this.items, {name: 'New item'}]
+                this.items = [...this.items, {name: 'Item'}]
             },
             deleteSelected() {
                 this.items = this.items.filter((item, index) => !this.selectedItems.includes(index))

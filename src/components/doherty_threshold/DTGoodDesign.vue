@@ -8,7 +8,7 @@
                     >
                         <v-list-item-content>
                             <v-list-item-title>
-                                First item
+                                Houses
                             </v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
@@ -17,7 +17,7 @@
                     >
                         <v-list-item-content>
                             <v-list-item-title>
-                                Second item
+                                Beaches
                             </v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>

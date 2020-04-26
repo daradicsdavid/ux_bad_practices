@@ -54,7 +54,7 @@
         },
         methods: {
             addItem() {
-                this.items = [...this.items, {name: 'New item'}]
+                this.items = [...this.items, {name: 'Item'}]
             },
             deleteItem(index) {
                 this.items = this.items.filter((item, i) => i !== index)
