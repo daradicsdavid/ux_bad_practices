@@ -11,6 +11,11 @@
                         <v-list-item-title>Aesthetic usability effect</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+                <v-list-item link to="/doherty_threshold/bad_design">
+                    <v-list-item-content>
+                        <v-list-item-title>Doherty threshold</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
 
             </v-list>
         </v-navigation-drawer>
