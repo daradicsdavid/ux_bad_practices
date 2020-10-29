@@ -1,5 +1,7 @@
 # ux_bad_practices
 
+https://ux-worst-practices.netlify.app
+
 ## Project setup
 ```
 npm install
